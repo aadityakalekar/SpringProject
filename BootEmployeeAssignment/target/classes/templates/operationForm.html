@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        margin: 0;
+        padding: 0;
+    }
+    form {
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffffff;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+    input, select {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+    input[type="submit"] {
+        background-color: #4caf50;
+        color: white;
+        cursor: pointer;
+    }
+    input[type="submit"]:hover {
+        background-color: #45a049;
+    }
+</style>
+</head>
+<body>
+<form action="operation" method="post">
+    User By Id:<input type="number" id="empId" name="empId" /><br>
+    <!-- User By Name:<input id="uname" name="UName"/><br> -->
+    <select name="ddlFlag">
+        <option value="select">Select Records</option>
+        <option value="delete">Delete Records</option>
+        <option value="update">Update Records</option>
+    </select>
+    <input type ="submit" value="Click Now"/>    
+</form>
+</body>
+</html>

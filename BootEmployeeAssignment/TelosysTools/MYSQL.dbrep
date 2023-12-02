@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Telosys Database Repository --><root>
+    <tableList databaseId="1" databaseName="MYSQL" databaseProductName="MySQL" generation="2023-10-05 14:45:38">
+        <table catalog="bootemployee" databaseComment="" databaseType="TABLE" javaBean="Employee" name="employee" schema="">
+            <column dbComment="" dbDefaultValue="" dbName="emp_id" dbNotNull="true" dbPosition="1" dbPrimaryKey="true" dbSize="19" dbTypeName="BIGINT" inputType="number" javaName="empId" javaType="java.lang.Long" jdbcTypeCode="-5" label="Emp id" notNull="true" selected="true"/>
+            <column dbComment="" dbDefaultValue="" dbName="dept" dbNotNull="false" dbPosition="2" dbSize="255" dbTypeName="VARCHAR" inputType="text" javaName="dept" javaType="java.lang.String" jdbcTypeCode="12" label="Dept" maxLength="255" notNull="false" selected="true"/>
+            <column dbComment="" dbDefaultValue="" dbName="email" dbNotNull="false" dbPosition="3" dbSize="255" dbTypeName="VARCHAR" inputType="text" javaName="email" javaType="java.lang.String" jdbcTypeCode="12" label="Email" maxLength="255" notNull="false" selected="true"/>
+            <column dbComment="" dbDefaultValue="" dbName="name" dbNotNull="false" dbPosition="4" dbSize="255" dbTypeName="VARCHAR" inputType="text" javaName="name" javaType="java.lang.String" jdbcTypeCode="12" label="Name" maxLength="255" notNull="false" selected="true"/>
+            <column dbComment="" dbDefaultValue="" dbName="salary" dbNotNull="true" dbPosition="5" dbSize="12" dbTypeName="FLOAT" inputType="number" javaName="salary" javaType="java.lang.Float" jdbcTypeCode="7" label="Salary" notNull="true" selected="true"/>
+        </table>
+    </tableList>
+</root>

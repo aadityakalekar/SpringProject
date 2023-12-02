@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<databases defaultId="1" maxId="10">
+    <db dialect="org.hibernate.dialect.MySQLDialect" driver="com.mysql.cj.jdbc.Driver" id="1" isolationLevel="" name="MYSQL" poolSize="1" typeName="MYSQL" url="jdbc:mysql://localhost:3306/bootemployee">
+        <property name="user" value="root"/>
+        <property name="password" value="root"/>
+        <metadata catalog="bootemployee" schema="TO_BE_DEFINED" table-name-exclude="" table-name-include="" table-name-pattern="%" table-types="TABLE"/>
+    </db>
+</databases>
